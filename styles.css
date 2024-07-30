@@ -47,7 +47,8 @@ button {
     align-items: center;
     background-color: lightgrey;
     padding: 15px 15px 15px 15px;
-    max-width: 200px;
+    width: 200px;
+    max-width: 220px;
     height: 400px;
     overflow: hidden;
     position: relative;
@@ -64,8 +65,10 @@ button {
     max-width: 150px;
     height: 200px;
     overflow-y: auto;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 15px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 2rem;
     box-sizing: border-box;
 }
 

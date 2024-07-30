@@ -11,7 +11,7 @@ const validatePhoneNumber = (input) => {
 
     const phoneRegex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)\d{3}([\s-]?)\d{4}$/;
     const valid = phoneRegex.test(input);
-    return `<p> ${valid ? 'Valid' : 'Invalid'} US number: ${input}</p>`
+    return `<span> ${valid ? 'Valid' : 'Invalid'} US number: <br><b>${input}</b></span>`
 }
 
 checkBtn.addEventListener('click', () => {
