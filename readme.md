@@ -1,6 +1,8 @@
 # Phone Number Validator
 
+<!-- DESCRIPTION-START -->
 A JavaScript application that checks if an entered number is a valid United States phone number.
+<!-- DESCRIPTION-END -->
 
 ![project image](https://res.cloudinary.com/dwguf4w1t/image/upload/v1722351977/Portfolio%20Projects/phone-number-validator-js_wlaykn.png)
 
